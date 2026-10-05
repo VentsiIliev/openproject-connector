@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "openproject": {
+      "type": "local",
+      "command": [
+        "/home/ilv/openproject-connector/.venv/bin/python",
+        "/home/ilv/openproject-connector/src/mcp_server.py"
+      ],
+      "enabled": true,
+      "timeout": 120000
+    }
+  }
+}
